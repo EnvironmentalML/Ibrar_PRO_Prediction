@@ -18,6 +18,7 @@ app = dash.Dash(__name__,
                     dbc.themes.BOOTSTRAP,
                     "https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"
                 ])
+server = app.server
 
 app.config['suppress_callback_exceptions'] = True
 
