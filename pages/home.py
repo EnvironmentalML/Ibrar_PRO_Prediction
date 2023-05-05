@@ -233,10 +233,10 @@ def home():
 
 
 @callback(
-    Output("power_output"*10000, "children"),
-    Output("aw_output"*10000, "children"),
-    Output("bl_output"*10000, "children"),
-    Output("s_output"*10000, "children"),
+    Output("power_output", "children"),
+    Output("aw_output", "children"),
+    Output("bl_output", "children"),
+    Output("s_output", "children"),
 
     Input("pred_btn", "n_clicks"),
 
